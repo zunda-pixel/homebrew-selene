@@ -2,8 +2,8 @@ class Selene < Formula
   desc "Generation Swift source code from Env file"
   homepage "https://github.com/zunda-pixel/selene"
   url "https://github.com/zunda-pixel/selene.git",
-      tag:      "1.1.1",
-      revision: "703adbc3fced409da7ecf20ea2b7e162ff6f4986"
+      tag:      "1.2.0",
+      revision: "09c9f62d34208fdf00e18347df623f156a6da28f"
   license "Apache-2.0"
   version_scheme 1
   head "https://github.com/zunda-pixel/selene.git", branch: "main"
@@ -26,7 +26,7 @@ class Selene < Formula
       #key2=value2
       key3=value3=value3
     EOS
-    shell_output("#{bin}/selene SecureEnv .env SecureEnv.swift")
-    assert_predicate testpath/"SecureEnv.swift", :exist?
+    shell_output("#{bin}/selene SecretEnv .env SecretEnv.swift")
+    assert_predicate testpath/"SecretEnv.swift", :exist?
   end
 end
