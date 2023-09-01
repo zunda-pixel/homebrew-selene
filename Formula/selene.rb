@@ -1,4 +1,4 @@
-class SwiftFormat < Formula
+class Selene < Formula
   desc "Formatting technology for Swift source code"
   homepage "https://github.com/zunda-pixel/selene"
   url "https://github.com/zunda-pixel/selene.git",
