@@ -2,6 +2,8 @@
 
 Selene Homebrew Self Hosting
 
+https://github.com/zunda-pixel/selene
+
 ### Install
 
 ```shell
