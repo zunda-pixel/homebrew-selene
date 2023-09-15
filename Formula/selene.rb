@@ -2,8 +2,8 @@ class Selene < Formula
   desc "Generation Swift source code from Env file"
   homepage "https://github.com/zunda-pixel/selene"
   url "https://github.com/zunda-pixel/selene.git",
-      tag:      "1.2.1",
-      revision: "e2dc9d3818a99a5c4e54b9d7af5e6ec174867190"
+      tag:      "1.2.2",
+      revision: "06666d4e04f56485e04c2181bdff7bbf7b71c4db"
   license "Apache-2.0"
   head "https://github.com/zunda-pixel/selene.git", branch: "main"
 
