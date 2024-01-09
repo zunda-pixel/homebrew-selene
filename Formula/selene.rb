@@ -2,12 +2,12 @@ class Selene < Formula
   desc "Generation Swift source code from Env file"
   homepage "https://github.com/zunda-pixel/selene"
   url "https://github.com/zunda-pixel/selene.git",
-      tag:      "1.2.2",
-      revision: "06666d4e04f56485e04c2181bdff7bbf7b71c4db"
+      tag:      "1.2.3",
+      revision: "18cd92b578ed84e4529ba25763feda7a36007ae2"
   license "Apache-2.0"
   head "https://github.com/zunda-pixel/selene.git", branch: "main"
 
-  depends_on xcode: ["14.3", :build]
+  depends_on xcode: ["15.2", :build]
 
   def install
     system "swift", "build", "--disable-sandbox", "-c", "release"
